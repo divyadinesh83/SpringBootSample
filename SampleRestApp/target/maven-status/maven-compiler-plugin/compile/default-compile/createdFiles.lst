@@ -1,0 +1,4 @@
+com\rest\repository\ContactRepo.class
+com\rest\controller\SpringBootRestController.class
+com\rest\model\Contact.class
+com\rest\application\SpringBootStartUp.class
