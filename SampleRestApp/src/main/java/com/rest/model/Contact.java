@@ -19,13 +19,13 @@ public class Contact implements Serializable{
 	 @GeneratedValue
 	private long id;
 	 
-	 @Column(nullable = false) 
+	 @Column
 	private String name;
 	 
-	 @Column(nullable = false)
+	 @Column
 	private String address;
 	 
-	 @Column(nullable = false) 
+	 @Column
 	private String phoneno;
 	
 	public Contact() {

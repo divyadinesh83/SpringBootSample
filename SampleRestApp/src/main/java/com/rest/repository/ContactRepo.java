@@ -3,8 +3,10 @@ package com.rest.repository;
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Component;
 
 import com.rest.model.Contact;
+
 
 public interface ContactRepo extends CrudRepository<Contact, Long>{
 
