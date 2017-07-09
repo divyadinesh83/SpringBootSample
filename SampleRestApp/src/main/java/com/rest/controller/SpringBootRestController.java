@@ -9,16 +9,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.rest.model.Contact;
 import com.rest.repository.ContactRepo;
 
+
 @RestController
 @RequestMapping("/")
-public class SpringBootRestController {
-	
+public class SpringBootRestController {	
 	
 	@Autowired
 	ContactRepo contactRepo;
 	
 	 @RequestMapping(value = "/contact", method = RequestMethod.POST)
-	    public Contact addContact(@RequestBody Contact contact) {	      
+	    public Contact addContact( @RequestBody Contact contact) {	      
 	        return contactRepo.save(contact);
 		 
 	    }

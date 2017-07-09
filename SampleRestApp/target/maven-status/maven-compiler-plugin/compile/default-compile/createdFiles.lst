@@ -1,4 +1,5 @@
-com\rest\repository\ContactRepo.class
+com\rest\swagger\SwaggerConfig.class
 com\rest\SpringBootStartUp.class
 com\rest\controller\SpringBootRestController.class
 com\rest\model\Contact.class
+com\rest\repository\ContactRepo.class
