@@ -29,11 +29,10 @@ public class Contact implements Serializable{
 	private String phoneno;
 	
 	public Contact() {
-		// TODO Auto-generated constructor stub
+
 	}
 	
 	public Contact(long id,String name,String address,String phoneno) {
-		// TODO Auto-generated constructor stub
 		this.id=id;
 		this.name=name;
 		this.address=address;
